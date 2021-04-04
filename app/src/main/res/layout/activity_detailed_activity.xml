@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detailed_activity"
+    android:orientation="vertical">
+    <RelativeLayout
+       android:layout_margin="10dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/cases_count_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TOTAL CASES"
+            android:textSize="26dp"
+            android:textColor="@color/cardview_dark_background"></TextView>
+        <TextView
+            android:id="@+id/cases_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="0"
+            android:textSize="26dp"
+            android:textColor="@color/cases"></TextView>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_margin="10dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/cases"
+            android:textSize="26dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TODAY CASES"
+            android:textColor="@color/cardview_dark_background"></TextView>
+        <TextView
+            android:id="@+id/today_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="26dp"
+            android:text="0"
+            android:textColor="@color/cases"></TextView>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_margin="10dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/totaldeaths_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26dp"
+            android:text="TOTAL DEATHS"
+            android:textColor="@color/cardview_dark_background"></TextView>
+        <TextView
+            android:id="@+id/totaldeaths"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="26dp"
+            android:text="0"
+            android:textColor="@color/cases"></TextView>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_margin="10dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/deaths_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TODAY DEATHS"
+            android:textSize="26dp"
+            android:textColor="@color/cardview_dark_background"></TextView>
+        <TextView
+            android:id="@+id/DEATHS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="26dp"
+            android:text="0"
+            android:textColor="@color/cases"></TextView>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_margin="10dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/ACTIVE_text"
+            android:layout_width="wrap_content"
+            android:textSize="26dp"
+            android:layout_height="wrap_content"
+            android:text="ACTIVE CASES"
+            android:textColor="@color/cardview_dark_background"></TextView>
+        <TextView
+            android:id="@+id/ACTIVE"
+            android:layout_width="wrap_content"
+            android:textSize="26dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="0"
+            android:textColor="@color/cases"></TextView>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_margin="10dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/recovery_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26dp"
+            android:text="RECOVERIES"
+            android:textColor="@color/cardview_dark_background"></TextView>
+        <TextView
+            android:id="@+id/RECOVERY_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26dp"
+            android:layout_alignParentRight="true"
+            android:text="0"
+            android:textColor="@color/cases"></TextView>
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
